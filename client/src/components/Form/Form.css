@@ -1,0 +1,60 @@
+.Title {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+.FormContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.LoginForm {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.Input {
+    margin-bottom: 1.5rem;
+    height: 1.5rem;
+    padding-left: .5rem;
+}
+
+.Input:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+
+.SubmitButton {
+    color: white;
+    background-color: blue;
+    font-size: .8rem;
+    font-weight: 600;
+    height: 2rem;
+    border: 1px solid blue;
+}
+
+.SubmitButton:hover {
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+}
+
+.ErrorContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.Error {
+    background-color: lightcoral;
+    padding: 1rem;
+}
+
+.Error p {
+    font-size: .8rem;
+    color: black;
+    margin: 0;
+}
